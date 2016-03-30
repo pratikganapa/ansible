@@ -1,0 +1,4 @@
+---
+- hosts: local
+  name: install calc in local machine
+  apt: name=apcalc status=installed update_cache=yes
