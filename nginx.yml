@@ -1,0 +1,5 @@
+---
+- Hosts: local 
+  name: Install nginx in local machine
+  apt: name=nginx state=installed update_cache=yes
+    
